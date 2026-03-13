@@ -10,8 +10,8 @@ This repository focuses on the AI-based obstacle detection and decision logic us
 The system performs the following steps:
 1. Capture RGB images from a depth camera
 2. Detect indoor obstacles using a YOLOv11n model
-3. Estimate the distance to detected objects
-4. Determine whether the obstacle is within a safety threshold
+3. Estimate the distance to detected objects (distance is less than 2 m)
+4. Yolov11n object detection reliability is more than 65 %
 5. Trigger navigation guidance logic (left / center / right)
 
 The audio output module is handled by an external microcontroller and is not included in this repository.
