@@ -22,7 +22,7 @@ Training platform: Google Colab
 Training dataset: Custom indoor obstacle dataset from roboflow
 
 Classes:
-- Chair - Table - Person
+- Chair, Table, Person
 
 Images:
 - All: 7686
